@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import foto from "./assets/foto-charles.jpg";
-import vendaFacilVideo from "./assets/Apresentaçao venfa facil.mp4";
+
 import flowny from "./assets/flowny.png";
 import bs from "./assets/bs-solucoes.png";
 import drCharles from "./assets/dr-charles.png";
@@ -85,7 +85,15 @@ export default function App() {
           <h2 className="mt-2 text-3xl font-bold">Vídeo de apresentação</h2>
           <p className="mt-3 max-w-2xl text-muted-foreground">Veja o Venda Fácil em funcionamento: vendas, estoque e gestão em um só lugar.</p>
           <div className="surface-card mt-6 overflow-hidden p-2 sm:p-3">
-            <iframe className="aspect-video w-full rounded-lg bg-elevated" src="https://www.youtube.com/embed/U7aI5T9flg0" title="Apresentação do Venda Fácil" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+            <video
+              className="aspect-video w-full rounded-lg bg-elevated object-cover"
+              src="/meu-portfolio/apresentacao-venda-facil.mp4"
+              controls
+              playsInline
+              preload="metadata"
+            >
+              Seu navegador não suporta vídeos em HTML5.
+            </video>
           </div>
         </section>
 
