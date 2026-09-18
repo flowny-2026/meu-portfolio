@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import foto from "./assets/foto-charles.jpg";
+import vendaFacilVideo from "./assets/Apresentaçao venfa facil.mp4";
 import flowny from "./assets/flowny.png";
 import bs from "./assets/bs-solucoes.png";
 import drCharles from "./assets/dr-charles.png";
